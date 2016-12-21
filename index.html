@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Monkey trouble </title>
+	<style type="text/css">
+        *{ text-align: center; margin-bottom: 2%;}
+        h3{ color: blueviolet; }
+        select{width: 15%; margin-top: 1%;}
+    </style> 
+
+</head>
+<body>
+
+	<h3> ¿ Los monos sonrien ?</h3>
+    <div class="formulario">
+        <label for="dia">Mono 1</label>
+        <br>
+        <select  id="aSmile">
+           <option value="1">Si</option>
+           <option value="2">No</option>
+           
+        </select>
+    </div>
+    <div class="formulario">
+        <label for="vacaciones"> Mono 2</label>
+        <br>
+        <select id="bSmile">
+            <option value="1">Si</option>
+            <option value="2">No</option>
+        </select>
+    </div>
+    <div>
+        <button onclick="calcular()"> Calcular </button>
+    </div>
+    <div>
+        <h3>Numero de coincidencias</h3>
+        <h1 id="salida"></h1>
+        
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

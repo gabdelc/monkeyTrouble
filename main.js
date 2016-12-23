@@ -11,17 +11,15 @@ function mono1()
 	}
 }
 
-
-
 function mono2()
 {
-	var img = document.getElementById("img_mono_2");
+	var img2 = document.getElementById("img_mono_2");
 	var checkB = document.getElementById("mono_2");
 
 	if(checkB.checked)
-		img.innerHTML = '<img src="img/happy.jpg">';
+		img2.innerHTML = '<img src="img/happy.jpg">';
 	else
-		img.innerHTML = '<img src="img/sad.jpg">';
+		img2.innerHTML = '<img src="img/sad.jpg">';
 }
 
 function evaluar()
